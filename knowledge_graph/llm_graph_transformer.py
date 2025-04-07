@@ -14,7 +14,7 @@ llm_transformer_filtered = LLMGraphTransformer(
     llm=llm,
     allowed_nodes=["Person", "Country", "Organization"],
     allowed_relationships=["NATIONALITY", "LOCATED_IN", "WORKED_AT", "SPOUSE"],
-    ignore_tool_usage=True
+    # ignore_tool_usage=True
 )
 
 
